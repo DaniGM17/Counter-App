@@ -78,17 +78,17 @@ class CustomFloatingActionButtom extends StatelessWidget {
       children: [
         FloatingActionButton(
           backgroundColor: Colors.pink,
-          onPressed: () => decrease,
+          onPressed: () => decrease(),
           child: const Icon(Icons.exposure_minus_1),
         ),
         FloatingActionButton(
           backgroundColor: Colors.pink,
-          onPressed: () => reset,
+          onPressed: () => reset(),
           child: const Icon(Icons.restart_alt),
         ),
         FloatingActionButton(
           backgroundColor: Colors.pink,
-          onPressed: () => increase,
+          onPressed: () => increase(),
           child: const Icon(Icons.exposure_plus_1),
         ),
       ],
